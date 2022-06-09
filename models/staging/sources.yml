@@ -17,9 +17,10 @@ sources:
             description: Note that the status can change over time
 
       - name: order_details
-      - name: products
+      - name: public_products
       - name: shippers
       - name: employees
       - name: customers
       - name: suppliers
-      - name: categories
+      - name: public_categories
+      

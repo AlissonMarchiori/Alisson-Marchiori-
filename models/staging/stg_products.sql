@@ -14,7 +14,7 @@ with source_data as (
             when discontinued = 0 then 'No'  
             else 'Yes'
         end as is_discontinued      
-    from {{ source('northwind', 'products') }}
+    from {{ source('northwind', 'public_products') }}
 )
 
 select *

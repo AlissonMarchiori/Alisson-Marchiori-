@@ -4,7 +4,7 @@ with source_data as (
         , category_name             
         , 'description' as category_description         
         , picture               
-    from {{ source('northwind', 'categories') }}
+    from {{ source('northwind', 'public_categories') }}
 )
 
 select *
