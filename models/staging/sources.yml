@@ -16,11 +16,11 @@ sources:
           - name: status
             description: Note that the status can change over time
 
-      - name: order_details
+      - name: public_order_details
       - name: public_products
-      - name: shippers
-      - name: employees
-      - name: customers
-      - name: suppliers
+      - name: public_shippers_
+      - name: public_employees
+      - name: public_custumers
+      - name: public_supplers_
       - name: public_categories
       
