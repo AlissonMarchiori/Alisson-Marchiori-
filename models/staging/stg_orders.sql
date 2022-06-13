@@ -1,6 +1,6 @@
-with source_data as (
-    select
-        order_id
+with source_data as(
+  select
+       order_id
         , employee_id
         , order_date
         , customer_id
@@ -14,8 +14,7 @@ with source_data as (
         , ship_via as shipper_id
         , ship_address
         , required_date
-    from {{ source('northwind','public_orders') }}
+    from {{source ('northwind','public_orders_')}}
 )
 
-select *
-from source_data 
+select * from source_data

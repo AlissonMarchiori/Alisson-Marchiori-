@@ -23,6 +23,6 @@ sources:
       - name: public_custumers
       - name: public_supplers_
       - name: public_categories
-      - name: public_orders
+      - name: public_orders_
       
       
