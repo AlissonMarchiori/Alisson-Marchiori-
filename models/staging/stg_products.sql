@@ -9,7 +9,6 @@ with source_data as (
         , cast (units_in_stock as int) as   units_in_stock      
         , units_on_order    
         , cast(reorder_level as int) as reorder_level   /* convertendo a coluna em inteiro*/        
-
         , case
             when discontinued = 0 then 'No'  
             else 'Yes'

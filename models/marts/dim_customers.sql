@@ -21,4 +21,4 @@ with staging as (
 )
 
 select *
-from transformed 
+from transformed

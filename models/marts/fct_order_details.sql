@@ -76,4 +76,4 @@ with customers as (
 )
 
 select * 
-from final
+from final 
