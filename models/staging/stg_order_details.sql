@@ -1,14 +1,11 @@
-
-with source_data as(
-    
+with source_data as (
     select
-    order_id
-    ,product_id
-    ,unit_price
-    ,quantity
-    ,discount
- from {{source ('northwind','public_order_details')}}
-
+        order_id
+        , product_id
+        , discount
+        , unit_price
+        , quantity
+    from {{ source('northwind','public_order_details') }}
 )
 
 select *
